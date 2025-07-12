@@ -1,0 +1,63 @@
+P: exibi uma lista dos itens na pasta.
+R: ls -la
+
+P: exibi o status dos itens no master.
+R: git status
+
+P: envia e adiciona uma menssagem ao envio.
+R: git commit -m""
+
+P: adiciona os arquivos a uma lista dos arq. que serão enviados.
+R: git add .
+
+P: exibi uma lista de configurações do git
+R: git config --list
+
+P: altera a url do repositorio do git 
+R: git remote set-url origin https://github.com/ViniFreitasss/PortifolioSimples.git
+
+P: exibi a url configurada no momento
+R: git remote -v
+
+P: configura o nome de usuário
+R: git config --global user.name "My name"
+
+P: configura o e-mail
+R: git config --global user.email "My e-mail"
+
+P: exibi o nome configurado no momento
+R: git config user.name
+
+P: exibi o e-mail configurado no momento
+R: git config user.email
+
+P: Envia as alterações do master para o 'origin'(url)
+R: git push origin master
+
+P: puxa e mescla as alterações do github com as do repositório local 
+R: git pull origin master
+
+P: Verifica quais branch estão presentes no repositório
+R: git branch
+
+P: Exibi uma lista de commits mais recentes e autores
+R: git log
+
+P: Troca de branch
+R: git checkout nomeBranch
+
+P: Crie e já troca para o branch em questão
+R: git checkout -b nomeBranch
+
+P: Remove o branch no repositório local
+R: git branch -d nomeBranch
+
+P: Remove o branch no github
+R: git push origin --delete nomeBranch
+
+P: Atualiza o branch no github
+R: git push origin nomeBranch
+
+P: Atualiza o repositório local pelo github
+R: git fetch --all
+
